@@ -32,7 +32,6 @@
             ],
             "styles": [
               "src/theme/variables.scss", 
-              "src/custom-styles.scss",
               "src/global.scss"
             ],
             "scripts": [],

@@ -5,9 +5,6 @@ import { IonicModule } from '@ionic/angular';
 
 import { NotFoundComponent } from './not-found.component';
 
-/**MODULES */
-import { SharedModule } from '@shared/shared.module';
-
 @NgModule({
   declarations: [
     NotFoundComponent
@@ -21,7 +18,6 @@ import { SharedModule } from '@shared/shared.module';
         component: NotFoundComponent
       }
     ]),
-    SharedModule
   ],
 })
 export class NotFoundModule {}
